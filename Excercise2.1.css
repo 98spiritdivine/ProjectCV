@@ -40,4 +40,6 @@ body {
 	
 	#foot {
 		text-align: center;
+		text-shadow: #abafd8 1px 0 10px;
+	font-family: san serif;
 	}
