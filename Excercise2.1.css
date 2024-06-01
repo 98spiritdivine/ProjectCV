@@ -61,7 +61,7 @@ img{
     
   }
 
-  .Summary:hover{
+  #Summary:hover{
     letter-spacing: 5px;
 	border-style: double;
 	border-top: 2px solid rgb(88, 10, 161);
