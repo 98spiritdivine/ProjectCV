@@ -1,6 +1,8 @@
 /* There is a hover effect on the summary section which has a class of Summary, and also there is a 
 hover effect on the inputs and select */
-
+box{
+	box-sizing: border-box;
+}
 body {
 	/* background: linear-gradient(-45deg, #a38479, #799c8a, #b3b7f5);
 	background-size: 400% 400%;
@@ -23,20 +25,33 @@ border: 2px solid rgb(38, 0, 128);
 }
 input:hover{
 	
-		background-color: rgb(0, 60, 255);
+		background-color: rgb(255, 0, 242);
 	  
 }
 select:hover{
 	
-	background-color: rgb(0, 60, 255);
+	background-color: rgb(255, 0, 242);
   
+
 }
 
+select{
+	background-color: #92496e;
+}
 
+button{
+	background-color: #92496e;
+}
 *{
 	box-sizing: border-box;
 }
-h1, h2, h3{
+h1{
+	text-align: center;
+	padding-bottom: 1rem;
+
+}
+
+ h1,h2, h3{
 	padding-bottom: 1rem;
 }
 
@@ -58,17 +73,97 @@ img{
  .Profile{ 
 	text-shadow: #abafd8 1px 0 10px;
 	font-family: serif;
+	border-top: 2px snow blueviolet;
+	border-bottom: 2px solid rgb(43, 28, 56);
+
     
   }
 
+  .Profile p{ 
+text-align: right;
+    
+  }
+  #Summary{
+	opacity: 3;
+	font-size: 2em;
+	border-radius: 5px;
+	border: #42b7c7;
+	transition-timing-function:ease-out;
+transition-duration: 2s;
+padding: auto;
+text-shadow: #2a37c7 1px 0 10px;
+
+  }
+
+
+  /* .mySpan {
+    opacity: 0;
+    font-size: 12px;
+    background: red;
+    border-radius: 5px;
+    color:#fff;
+    transition: 1s;
+    padding:10px;
+}
+
+.mySpan:hover{
+    opacity: 1;
+    transition:0s;
+} */
+
+
   #Summary:hover{
+	opacity: 3;
+transition:4s;
     letter-spacing: 5px;
 	border-style: double;
 	border-top: 2px solid rgb(88, 10, 161);
+}
+
+
+
+ .Tools .container{
+	display:flex;
+	justify-content: center;
+}
+
+.contact  {
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+
+}
+#message{
+	background-color: #e2a2d5;
+}
+
+input{
+	background-color: #924984;
+	width:20rem;
+	flex-grow: 1;
+	display:flex;
+	margin-bottom: 1rem;
+
 
 }
 
+
+ /* .form-conatainer{
+	display: flex; */
+	/* align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
   
+.contact .test-input-container,
+contact .select.select-container,
+contact .checkbox-container{
+	display:flex;
+	width: 30rem;
+	margin-bottom: 1rem;
+} */
 
 @keyframes gradient {
 	0% {
