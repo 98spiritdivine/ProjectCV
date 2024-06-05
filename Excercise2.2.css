@@ -66,8 +66,12 @@ h3{
 	border-style: double;
 }
 
-img{
+.prof{
 	border-radius: 50%;
+}
+
+ .pro{
+	clip-path: circle(50% at 50% 50%); 
 }
 
  .Profile{ 
@@ -80,6 +84,7 @@ img{
   }
 
   .Profile p{ 
+	letter-spacing: normal;
 text-align: right;
     
   }
@@ -144,8 +149,24 @@ input{
 	display:flex;
 	margin-bottom: 1rem;
 
-
 }
+.pro .project{
+
+	object-position:top right;
+		object-position: left;
+		position:relative;
+		
+		
+}
+.pro{
+	width: 200px;
+}
+
+.projects p{
+	text-align:center;
+	
+}
+
 
 
  /* .form-conatainer{
